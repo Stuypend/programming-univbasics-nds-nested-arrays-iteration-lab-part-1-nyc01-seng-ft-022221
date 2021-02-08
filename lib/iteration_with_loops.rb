@@ -1,14 +1,13 @@
 def find_even_values(src)
   row = 0
   while (row < src.length) do
-
     col = 0
     while (col < src[row].length) do
 
         if(src[row][col] % 2 == 0)
           puts src[row][col]
+        end
         col += 1
-
     end
     row += 1
 
