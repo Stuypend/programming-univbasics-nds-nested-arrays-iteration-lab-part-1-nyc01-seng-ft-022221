@@ -4,11 +4,11 @@ def find_even_values(src)
   
     col = 0
     while (col < src[row].length) do
-    {
+    
         if(src[row][col] % 2 == 0)
           puts src[row][col]
         col += 1
-    }
+    
     end
     row += 1
   
