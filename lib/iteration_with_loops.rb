@@ -1,7 +1,7 @@
 def find_even_values(src)
   row = 0
   while (row < src.length) do
-  {
+  
     col = 0
     while (col < src[row].length) do
     {
@@ -11,7 +11,7 @@ def find_even_values(src)
     }
     end
     row += 1
-  }
+  
   end
   # Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
   #
